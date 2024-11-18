@@ -1,0 +1,15 @@
+.home-content {
+    flex: 2; /* Dá mais espaço ao conteúdo do que à imagem */
+    padding-left: 30px;
+    text-align: justify; /* Justifica o texto */
+    max-width: 60%; /* Limita a largura do conteúdo para que não fique muito largo */
+    margin-right: auto; /* Garante que o conteúdo se alinhe à esquerda */
+}
+
+.iframe-texto {
+    width: 100%; /* Faz o iframe ocupar toda a largura disponível */
+    height: 500px; /* Define uma altura fixa para o iframe */
+    border: none; /* Remove a borda do iframe */
+    overflow: auto; /* Adiciona rolagem ao conteúdo interno */
+    margin-top: 20px;
+}
