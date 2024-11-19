@@ -1,0 +1,198 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    flex-direction: column;
+    background-color: black;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 5vw; /* Usando vw para ajustar conforme a largura da tela */
+    color: #fff;
+    margin: 2vh 0;
+}
+
+.logo {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 3vw;
+}
+
+.logo img {
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
+    max-height: 650px;  /* Ajuste da altura da logo em relação à altura da tela */
+    object-fit: contain;
+    padding: 0px; /* Ajuste de padding em porcentagem da altura */
+}
+
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 8vh; /* Definindo altura relativa */
+}
+
+nav {
+    display: flex; 
+    align-items: center;
+}
+
+nav a {
+    margin: 1vh;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button {
+    color: #fff;
+    padding: 3vh 7vw; /* Usando vh e vw para o tamanho do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    background-color: #697565; 
+    font-size: 15px; /* Usando vw para ajustar o tamanho da fonte */
+}
+
+.button:hover {
+    background-color: #5a6b59; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); 
+}
+
+#imagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 05vh 0;
+    gap: 1vw; /* Espaçamento entre as imagens */
+    align-items: center; /* Alinhamento vertical das imagens */
+}
+
+#imagens img {
+    width: 15vw;  /* Usando vw para ajustar a largura das imagens */
+    height: 55vh; /* Usando vh para aumentar a altura das imagens */
+    object-fit: cover; /* Faz as imagens preencherem a área */
+    transition: transform 0.3s ease;
+    border-radius: 10px; /* Suavizar bordas das imagens */
+}
+
+#imagens img:hover {
+    transform: scale(1.05); /* Efeito de zoom */
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    padding: 5vh;
+    background-color: #697565;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.home-image {
+    flex: 3;
+    overflow: hidden;
+    max-width: 40vw;
+}
+
+.igor-image {
+    height: auto;
+    border-radius: 0px;
+    transition: transform 0.3s ease;
+    width: 30vw;  
+    height: 30vw;
+}
+
+.home-content {
+    flex: 2;
+    padding-left: 5vw;
+    text-align: justify;
+    max-width: 60%;
+    margin-right: auto;
+}
+
+.iframe-texto {
+    width: 100%;
+    height: 45vh;
+    border: none;
+    overflow: auto;
+    margin-top: 2vh;
+}
+
+.home h1,
+.home h3 {
+    color: #fff;
+    margin: 2vh 0;
+}
+
+.home h1 {
+    font-size: 4vw;
+}
+
+.home h3 {
+    font-size: 2.5vw;
+}
+
+.hidden {
+    display: none;
+}
+
+.home-image:hover .igor-image {
+    transform: scale(1.05);
+}
+
+@keyframes thumbs-up {
+    0% {
+        transform: scale(1) rotate(0);
+    }
+    100% {
+        transform: scale(1.1) rotate(10deg);
+    }
+}
+
+#contato {
+    text-align: center;
+    padding: 5vh 0;
+    color: #fff;
+    background-color: #3C3D37;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.map-container {
+    margin: 5vh 0;
+}
+
+.map-container iframe {
+    border: 0;
+    border-radius: 10px;
+    width: 80%;
+    height: 50vh;
+}
+
+footer {
+    text-align: center;
+    padding: 3vh 0;
+    background-color: #3C3D37;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+}

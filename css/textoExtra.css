@@ -1,0 +1,15 @@
+.home-content {
+    flex: 2; 
+    padding-left: 30px;
+    text-align: justify;
+    max-width: 60%;
+    margin-right: auto; 
+}
+
+.iframe-texto {
+    width: 100%;
+    height: 500px;
+    border: none;
+    overflow: auto;
+    margin-top: 20px;
+}

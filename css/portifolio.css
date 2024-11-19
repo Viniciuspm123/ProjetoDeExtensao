@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5a6b59;
+    color: #333
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+    flex-direction: column;
+    background-color: black;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    max-height: 700px;
+    object-fit: contain;
+    padding: 100px ;
+}
+
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 140px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button {
+    color: #fff;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    background-color: #697565; 
+    font-size: 25px;
+}
+
+.button:hover {
+    background-color: #5a6b59;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-title {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 750;
+    
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3C3D37;
+    color: #fff;
+    margin-top: 4px;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
