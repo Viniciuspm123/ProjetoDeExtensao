@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5a6b59; 
+    color: #333;
+    flex-direction: column;  
+    align-items: center;  
+    min-height: 100vh; 
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    flex-direction: column;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 5vw; /* Usando vw para ajustar conforme a largura da tela */
+    color: #fff;
+    margin: 2vh 0;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    max-height: 300px;  /* Ajuste da altura da logo em relação à altura da tela */
+    flex-wrap: wrap;
+}
+
+
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; /* Definindo altura relativa */
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 0%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button {
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    background-color: #697565; 
+    font-size: 25px;
+}
+
+.button:hover {
+    background-color: #5a6b59;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.social {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    
+}
+
+.social h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+}
+
+.social-links a {
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1); 
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: #3C3D37;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0; 
+    margin: 0%;
+}
