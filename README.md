@@ -1,4 +1,4 @@
-Projeto 12 (Extensão) - Website Profissional para Tatuador (Igor Salazar)
+Projeto (Extensão) - Website Profissional para Tatuador (Igor Salazar)
 Este projeto consiste na criação de um website profissional de três páginas para o tatuador Igor Salazar, servindo como sua presença online e principal vitrine de trabalho.
 
 🚀 Sobre o Projeto
