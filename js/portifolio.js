@@ -1,16 +1,16 @@
 const tattooImages = [
-    "img/Tatto01.jpeg",
-    "img/Tatto02.jpeg",
-    "img/Tatto03.jpeg",
-    "img/Tatto04.jpeg",
-    "img/Tatto05.jpeg",
-    "img/Tatto06.jpeg",
-    "img/Tatto07.jpeg",
-    "img/Tatto08.jpeg",
-    "img/Tatto09.jpeg",
-    "img/Tatto10.jpeg",
-    "img/Tatto11.jpeg",
-    "img/Tatto12.jpeg"
+    "css/Tatto01.jpeg",
+    "css/Tatto02.jpeg",
+    "css/Tatto03.jpeg",
+    "css/Tatto04.jpeg",
+    "css/Tatto05.jpeg",
+    "css/Tatto06.jpeg",
+    "css/Tatto07.jpeg",
+    "css/Tatto08.jpeg",
+    "css/Tatto09.jpeg",
+    "css/Tatto10.jpeg",
+    "css/Tatto11.jpeg",
+    "css/Tatto12.jpeg"
 ];
 
 function renderGallery() {
@@ -30,3 +30,4 @@ function renderGallery() {
 }
 
 window.onload = renderGallery;
+
